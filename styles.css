@@ -91,11 +91,21 @@ p {
   padding-left: 0.2rem;
 }
 .circles {
-  /* background: url(images/bg-pattern-top.svg) hsl(185, 75%, 39%) no-repeat, url(images/bg-pattern-) no-repeat; */
   background-image: url(images/bg-pattern-top.svg),
     url(images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: left -22rem, right 25rem;
-  background-size: 50%;
+  background-position: -23rem -43rem, 45rem 25rem;
+  background-size: 75%;
   position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .circles {
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -35rem -30rem, 10rem 25rem;
+    background-size: 200%;
+    position: relative;
+  }
 }
