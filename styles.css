@@ -1,0 +1,101 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/****************************Global**********************/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  /* vertical-align: baseline; */
+}
+/****************************Main elements**********************/
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+hr {
+  border-top: solid hsl(0, 0%, 59%);
+  border-width: 1px;
+  opacity: 50%;
+}
+h3 {
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+  line-height: 1rem;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+h6 {
+  color: hsl(227, 10%, 46%);
+  line-height: 2rem;
+  padding: 0.5rem 0 ;
+  font-weight: 400;
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+  line-height: 3rem;
+}
+
+/****************************Classes**********************/
+.blue-container {
+  background-color: hsl(185, 75%, 39%);
+  height: 50rem;
+  z-index: -1;
+  display: flex;
+}
+.wrapper {
+  background-color: white;
+  background-image: url(images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  width: 21rem;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 5.5rem;
+  margin: auto;  
+  box-shadow: 20px 20px 50px 15px rgba(7, 7, 7, 0.116);
+}
+.victor-image {
+  border-radius: 10rem;
+  border: solid white 5px;
+}
+.top-circle {
+  position: relative;
+  right: 20rem;
+  bottom: 30rem;
+  z-index: -0.5;
+}
+.flex-box-stats {
+  display: flex;
+  justify-content: space-evenly;
+  
+  }
+
+.flex-box-stats h3 {
+  line-height: 0;
+  padding-top: 2rem;
+}
+.flex-box-stats p {
+  font-size: 11px;
+  font-weight: 400;
+}
+.age {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  padding-left: 0.2rem;
+}
+.circles {
+  /* background: url(images/bg-pattern-top.svg) hsl(185, 75%, 39%) no-repeat, url(images/bg-pattern-) no-repeat; */
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: left -22rem, right 25rem;
+  background-size: 50%;
+  position: relative;
+}
