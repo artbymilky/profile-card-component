@@ -21,11 +21,6 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   background-color: hsl(185, 75%, 39%);
 }
-hr {
-  border-top: solid hsl(0, 0%, 59%);
-  border-width: 1px;
-  opacity: 50%;
-}
 h3 {
   font-size: 18px;
   color: hsl(229, 23%, 23%);
@@ -48,7 +43,7 @@ p {
 /****************************Classes**********************/
 .blue-container {
   height: 50rem;
-  /* z-index: -1; */
+
   display: flex;
 }
 .wrapper {
@@ -75,7 +70,7 @@ p {
 .flex-box-stats {
   display: flex;
   justify-content: space-evenly;
-  
+  border-top:outset;
   }
 
 .flex-box-stats h3 {
